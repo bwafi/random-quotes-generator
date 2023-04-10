@@ -30,7 +30,7 @@ export default function Quotes({ click }) {
         type="button"
         className="py-2 px-4 dark:bg-slate-300 dark:text-slate-800 bg-slate-800 text-white rounded-full my-8 hover:opacity-80 shadow-md"
         onClick={() => quotesHandler()}>
-        Generate New Qoute
+        Generate New Quotes
       </button>
     </>
   );
