@@ -17,7 +17,7 @@ export default function Home() {
             <li className="block bg-yellow-500 w-4 h-4 rounded-full"></li>
             <li className="block bg-green-500 w-4 h-4 rounded-full"></li>
           </ul>
-          <h1 className="font-bold text-center md:text-2xl text-base">Random Quotes Generator</h1>
+          <h1 className="font-bold text-center md:text-2xl text-lg">Random Quotes</h1>
           <button onClick={() => SetDark(!dark)}>
             <Image src={dark ? '/moon.svg' : '/sun.svg'} alt="sun" width={20} height={20} />
           </button>
