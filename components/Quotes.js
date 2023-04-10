@@ -13,15 +13,17 @@ export default function Quotes({ click }) {
     <>
       {!quotes ? (
         <>
-          <p className="font-bold text-center text-3xl w-10/12 pt-10 pb-5 px-5">
+          <p className="font-bold text-center md:text-3xl text-2xl md:w-10/12 w-11/12 md:pt-10 pt-6 pb-5 md:px-5 px-1">
             &ldquo;Welcome to Random Quotes Generator by Syahroni Bawafi&rdquo;
           </p>
-          <i className="text-xl">&minus; Syahroni &minus;</i>
+          <i className="md:text-xl text-lg">&minus; Syahroni &minus;</i>
         </>
       ) : (
         <>
-          <p className="font-bold text-center text-3xl w-9/12 pt-10 pb-5 px-5">&ldquo;{quotes.content}&rdquo;</p>
-          <i className="text-xl">&minus; {quotes.author} &minus;</i>
+          <p className="font-bold text-center md:text-3xl text-2xl md:w-10/12 w-11/12 md:pt-10 pt-6 pb-5 md:px-5 px-1">
+            &ldquo;{quotes.content}&rdquo;
+          </p>
+          <i className="md:text-xl text-lg">&minus; {quotes.author} &minus;</i>
         </>
       )}
       <button

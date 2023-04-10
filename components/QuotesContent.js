@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Quotes from './Quotes';
 
 export default function QuotesContent() {
