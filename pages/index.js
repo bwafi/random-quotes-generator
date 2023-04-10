@@ -25,7 +25,7 @@ export default function Home() {
         <hr className="border-t border-black dark:border-slate-300" />
         <QuotesContent />
       </div>
-      <footer className="text-base my-5">Random Quotes Generator By Syahroni Bawafi</footer>
+      <footer className="md:text-base text-sm my-5">Random Quotes Generator By Syahroni Bawafi</footer>
     </main>
   );
 }
